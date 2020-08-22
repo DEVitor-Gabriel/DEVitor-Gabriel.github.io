@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="br">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="imagens/image-qi.png" type="image/png">
+
+    <link rel="stylesheet" href="styles/page-teste-imc.css">
+
+    <script src="scripts/scriptImc.js" defer></script>
+
+    <title>Teste de IMC</title>
+
+<body>
+
+    <header>
+        <div class="img-header">
+            <img src="imagens/image-imc.png" alt="">
+        </div>
+    </header>
+
+    <main>
+        <div class="page-questions">
+            <form >
+                <div id="input-altura-imc">
+                    <label for="altura-imc">Qual a sua altura ?</label>
+                    <input id = "altura-imc" type="number" step="any"> <strong>m &nbsp;</strong>
+                </div>
+
+                <div id="input-peso-imc">
+                    <label for="peso-imc">Qual a seu peso ?</label>
+                    <input id = "peso-imc" type="number" step="any"> <strong>Kg</strong>
+                </div>
+
+                <div id="input-maior65-imc">
+                    <label for="peso-imc">Idade &nbsp;>&nbsp; 65 anos?</label>
+                    <input id = "idade-maior" type="radio" name="marcado" >
+                </div>
+
+                <div id="input-menor65-imc">
+                    <label for="peso-imc">Idade <= 65 anos?</label>
+                    <input id = "idade-menor" type="radio" name="marcado">
+                </div>
+
+                <div class="class-button">
+                    <button type="button" id = "somar" onclick="somarValores()">Calcular</button>
+
+                </div>
+
+                <div class="class-resultado">
+                    <p id="id-resultado" ></p>
+
+                </div>
+
+                <div class="class-classificacao">
+                    <p id="id-classificacao" style="color: #c53737;"></p>
+
+                </div>
+
+                <div class="class-mensagem">
+                    <p id="id-mensagem"></p>
+
+                </div>
+
+            </form>
+
+        </div>
+    </main>
+</body>
+
+</html>
