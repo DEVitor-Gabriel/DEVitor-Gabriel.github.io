@@ -9,7 +9,7 @@ html, body {
 }
 
 body {
-    background: #66cccc;
+    background: #666666;
     
     display: flex;
     align-items: center;
@@ -17,16 +17,17 @@ body {
 
 }
 
-#id-img .img-qi img{
-
-    height: 30vh;
-    width: 70vw;
-
+#id-img .img-qi {
     display: flex;
     align-items: center;
     justify-content: center;
-    
-    margin-left: 1.5rem;
+}
+
+#id-img .img-qi img{
+
+    height: 40vh;
+    width: 60vw;
+
     margin-bottom: 4rem;
 
 }
@@ -43,10 +44,10 @@ body {
     width: 15rem;
     height: 4rem;
 
-    border-radius: 0.8rem;
+    border-radius: 10rem;
     margin-top: 0.8rem;
 
-    font: 600 2rem Archivo;
+    font: 600 1.5rem Archivo;
 
     display: flex;
     align-items: center;
@@ -56,45 +57,41 @@ body {
 
     transition: background 0.2s;
 
-    color:  white;
-}
-
-.buttons-container a img{
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color:  #333333;
 }
 
 .buttons-container a.qi img {
 
     width: 3rem;
-    margin-right: 1.2rem;
+    margin-right: 1rem;
     margin-left: 1rem;
 }
 
 .buttons-container a.imc img {
-    width: 6rem;
+    width: 2.5rem;
+    margin-right: 1.2rem;
+    margin-left: 1rem;
+    margin-bottom: 0.4rem;
     
 }
 
 .buttons-container a.qi {
-    background: #ff9999;
-    width: 80vw;
+    background: #3399cc;
+    width: 70vw;
 }
 
 .buttons-container a.qi:hover {
-    background: #fd6161;
+    background: #2582b1;
 }
 
 .buttons-container a.imc {
-    background: #333333;
+    background: #ff9933;
    
-    width: 80vw;
+    width: 70vw;
 }
 
 .buttons-container a.imc:hover{
-    background: #000000;
+    background: #d8791a;
 }
 
 @media(min-width : 500px ) {
