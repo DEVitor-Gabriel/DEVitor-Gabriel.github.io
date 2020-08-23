@@ -1,4 +1,21 @@
-* { /* Tirando a margem padrão do html */
+body {
+    height: 80vh;
+    background: #3399cc;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font: 550 2rem Audiowide;
+    margin-top: 19rem;
+
+    color: black;
+}
+
+
+
+
+/* {  Tirando a margem padrão do html 
     margin: 0;
     padding: 0;
 }
@@ -12,6 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .img-header img {
@@ -108,4 +126,4 @@ button:hover {
     button {
         width: 374.797px;
     }
-}
+}*/

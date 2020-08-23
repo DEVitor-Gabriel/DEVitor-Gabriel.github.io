@@ -47,7 +47,7 @@ body {
     border-radius: 10rem;
     margin-top: 0.8rem;
 
-    font: 600 1.5rem Archivo;
+    font: 550 1.5rem Audiowide;
 
     display: flex;
     align-items: center;
@@ -63,14 +63,13 @@ body {
 .buttons-container a.qi img {
 
     width: 3rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
+
 }
 
 .buttons-container a.imc img {
     width: 2.5rem;
-    margin-right: 1.2rem;
-    margin-left: 1rem;
+    margin-right: .7rem;
+
     margin-bottom: 0.4rem;
     
 }
@@ -95,23 +94,6 @@ body {
 }
 
 @media(min-width : 500px ) {
-
-    #id-img .img-qi {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    #id-img .img-qi img{
-
-        height: 250px;
-        width: 350px;
-    
-    }
-
-}
-
-@media(min-width : 840px ) {
     
     #id-img {
         display: flex;
@@ -126,7 +108,7 @@ body {
     #id-img .img-qi img{
 
         height: 250px;
-        width: 350px;
+        width: 250px;
     
     }
 
