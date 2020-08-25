@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+
+    background-image: url("/MySite/imagens/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    
+    margin-top: 0.5rem;
+
+    font: 700 4rem Iceland;
+    color: #b1a9a9;
+
+    cursor: none;
+
+    transform: scale(1);
+}
+
+h1:hover {
+    transform: scale(1.5);
+}
+.class-icon {
+    width: 100%;
+    height: 100px;
+
+    text-align: center;
+    margin-top: -2rem;
+
+}
+
+.class-icon img {
+    height: 150px;
+    width: 150px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 80vh;
+    width: 100vw;
+
+}
+
+section {
+    width: 100%;
+    height: 100%;
+
+    text-align: center;
+}
+
+a {
+    
+    background: #ddd8d9;
+    opacity: 0.8;
+    padding: 1rem;
+    text-decoration: none;
+
+    border-radius: 0.5rem;
+
+    font: 700 2rem Iceland;
+    color: #1d0c26;
+
+}
+
+a:hover {
+    opacity: 0.8;
+    background: #1d0c26;
+    color: #ddd8d9;
+}
+
+.class-buttom1 {
+    margin-top: 5rem;
+}
+
+.class-buttom2,.class-buttom3,.class-buttom4,.class-buttom5,.class-buttom6{
+    margin-top: 3.5rem;
+}
+
+footer {
+    font: 600 1rem Iceland;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+    position: fixed;
+    bottom: 0;
+
+    width: 100vw;
+    height: 10vh;
+
+}
+
+footer p {
+    color: #b1a9a9;
+    margin-top: 1.5rem;
+    opacity: 0.5;
+}
+
+@media(min-width: 600px){
+
+    .class-icon{
+        margin-top: -2rem;
+    }
+    section {
+        display: flex;
+        justify-content: center;
+    }
+
+    .class-buttom1 {
+        margin-top: 3.5rem;
+    }
+
+    .class-buttom2,.class-buttom3{
+        margin-left: 2rem;
+       
+    }
+
+    footer p{
+        margin-top: 2.2rem;
+    }
+}
