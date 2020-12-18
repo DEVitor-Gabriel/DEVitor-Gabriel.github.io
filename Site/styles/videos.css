@@ -13,14 +13,46 @@ section{
 
 }
 
-section video {
-    width: 320px;
-    height: 240px;
+section iframe {
+    width: 85vw;
+    height: 250px;
 }
 
 section .class-content {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     padding: 0rem;
+    text-align: center;
+}
+
+section .class-content .buttom {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #62e5e9;
+    margin-top: 1rem;
+
+    border: none;
+    border-radius: 0.5rem;
+
+    
+}
+.buttom img {
+    height: 35px;
+    width: 35px;
+    margin-right: 0.5rem;
+}
+
+.buttom a{
+    font-family: Archivo;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: black;
+
+    padding: 1.2rem;
+    
+    text-decoration: none;
+    outline: 0;
 }

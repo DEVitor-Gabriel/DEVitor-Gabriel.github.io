@@ -15,12 +15,45 @@ section{
 
 section img {
     width: 250px;
-    height: 350px;
+    height: 330px;
 }
 
 section .class-content {
-    display: flex;
+    display: grid;
     align-items: center;
     justify-content: center;
     padding: 0rem;
+    text-align: center;
+}
+
+section .class-content .buttom {
+
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+    background-color: #62e5e9;
+    margin-top: 1.5rem;
+
+    border: none;
+    border-radius: 0.5rem;
+
+    
+}
+.buttom img {
+    height: 35px;
+    width: 35px;
+}
+
+.buttom a{
+    font-family: Archivo;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: black;
+
+    padding: 1.5rem;
+    padding-left: 0.5rem;
+    
+    text-decoration: none;
+    outline: 0;
 }
